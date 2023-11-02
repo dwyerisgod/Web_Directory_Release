@@ -1,0 +1,66 @@
+/* Стили для верхней части сайта */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed; /* Делаем верхнюю часть сайта фиксированной */
+    width: 100%; /* Занимает всю ширину экрана */
+    top: 0; /* Прикрепляем верхнюю часть к верху окна браузера */
+    z-index: 100; /* Выше других элементов */
+}
+
+/* Стили для основного содержимого сайта */
+main {
+    padding: 20px;
+    margin-top: 80px; /* Учитываем высоту верхней части сайта */
+}
+
+/* Стиль для фона всей страницы */
+body {
+    background-color: #ccc; /* Серый цвет фона */
+    margin: 0; /* Убирает внешние отступы у <body> */
+    padding: 0; /* Убирает внутренние отступы у <body> */
+}
+
+/* Выборка */
+
+select {
+    padding: 5px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+}
+
+select option {
+    padding: 10px;
+}
+
+/* Таблица */
+
+/* Стиль для таблицы */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px; /* Максимальная ширина таблицы */
+    margin: 0 auto; /* Выравнивание по центру */
+    font-family: Arial, sans-serif;
+}
+
+/* Стиль для заголовков ячеек */
+th {
+    background-color: #b4c097; /* Цвет фона */
+    color: white; /* Цвет текста */
+    font-weight: bold;
+}
+
+/* Стиль для чётных строк (задайте фоновый цвет по вашему усмотрению) */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Стиль для ячеек в таблице */
+td {
+    border: 2px solid #0c0b0b; /* Границы ячеек */
+    padding: 8px; /* Внутренний отступ ячеек */
+    text-align: center; /* Выравнивание текста по центру */
+    white-space: normal; /* Разрешить перенос текста */
+}

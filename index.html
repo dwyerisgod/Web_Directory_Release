@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Dynamic table with data</title>
+</head>
+
+<body>
+    <header>
+        <label for="tableSelect">Оберіть таблицю:</label>
+        <select id="tableSelect">
+            <option value="Systems">Системи</option>
+            <option value="Countries">Країни</option>
+            <option value="System_Classifier">Класифікатор систем</option>
+            <option value="System_Classification">Класифікація систем</option>
+            <option value="Literary_Sources">Літературні джерела</option>
+            <option value="Literature_on_Systems">Література по системам</option>
+        </select>
+    </header>
+    
+    <main>
+        <table id="data-table">
+            <!-- Таблица будет заполнена данными после выбора из выпадающего списка -->
+        </table>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
